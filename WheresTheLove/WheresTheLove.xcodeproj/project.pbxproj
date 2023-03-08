@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5F5B6D129B953F000B158B2 /* WheresTheLoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5B6D029B953F000B158B2 /* WheresTheLoveApp.swift */; };
+		D5F5B6D329B953F000B158B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5B6D229B953F000B158B2 /* ContentView.swift */; };
+		D5F5B6D529B953F200B158B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F5B6D429B953F200B158B2 /* Assets.xcassets */; };
+		D5F5B6D829B953F200B158B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F5B6D729B953F200B158B2 /* Preview Assets.xcassets */; };
+		D5F5B6E229B953F200B158B2 /* WheresTheLoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5B6E129B953F200B158B2 /* WheresTheLoveTests.swift */; };
+		D5F5B6EC29B953F200B158B2 /* WheresTheLoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5B6EB29B953F200B158B2 /* WheresTheLoveUITests.swift */; };
+		D5F5B6EE29B953F200B158B2 /* WheresTheLoveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5B6ED29B953F200B158B2 /* WheresTheLoveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F5B6DE29B953F200B158B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F5B6C529B953F000B158B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F5B6CC29B953F000B158B2;
+			remoteInfo = WheresTheLove;
+		};
+		D5F5B6E829B953F200B158B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F5B6C529B953F000B158B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F5B6CC29B953F000B158B2;
+			remoteInfo = WheresTheLove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5F5B6CD29B953F000B158B2 /* WheresTheLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheresTheLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F5B6D029B953F000B158B2 /* WheresTheLoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresTheLoveApp.swift; sourceTree = "<group>"; };
+		D5F5B6D229B953F000B158B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5F5B6D429B953F200B158B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F5B6D729B953F200B158B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5F5B6DD29B953F200B158B2 /* WheresTheLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresTheLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F5B6E129B953F200B158B2 /* WheresTheLoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresTheLoveTests.swift; sourceTree = "<group>"; };
+		D5F5B6E729B953F200B158B2 /* WheresTheLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresTheLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F5B6EB29B953F200B158B2 /* WheresTheLoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresTheLoveUITests.swift; sourceTree = "<group>"; };
+		D5F5B6ED29B953F200B158B2 /* WheresTheLoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresTheLoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F5B6CA29B953F000B158B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F5B6DA29B953F200B158B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F5B6E429B953F200B158B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5F5B6C429B953F000B158B2 = {
+			isa = PBXGroup;
+			children = (
+				D5F5B6CF29B953F000B158B2 /* WheresTheLove */,
+				D5F5B6E029B953F200B158B2 /* WheresTheLoveTests */,
+				D5F5B6EA29B953F200B158B2 /* WheresTheLoveUITests */,
+				D5F5B6CE29B953F000B158B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F5B6CE29B953F000B158B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F5B6CD29B953F000B158B2 /* WheresTheLove.app */,
+				D5F5B6DD29B953F200B158B2 /* WheresTheLoveTests.xctest */,
+				D5F5B6E729B953F200B158B2 /* WheresTheLoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F5B6CF29B953F000B158B2 /* WheresTheLove */ = {
+			isa = PBXGroup;
+			children = (
+				D5F5B6D029B953F000B158B2 /* WheresTheLoveApp.swift */,
+				D5F5B6D229B953F000B158B2 /* ContentView.swift */,
+				D5F5B6D429B953F200B158B2 /* Assets.xcassets */,
+				D5F5B6D629B953F200B158B2 /* Preview Content */,
+			);
+			path = WheresTheLove;
+			sourceTree = "<group>";
+		};
+		D5F5B6D629B953F200B158B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5F5B6D729B953F200B158B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5F5B6E029B953F200B158B2 /* WheresTheLoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F5B6E129B953F200B158B2 /* WheresTheLoveTests.swift */,
+			);
+			path = WheresTheLoveTests;
+			sourceTree = "<group>";
+		};
+		D5F5B6EA29B953F200B158B2 /* WheresTheLoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F5B6EB29B953F200B158B2 /* WheresTheLoveUITests.swift */,
+				D5F5B6ED29B953F200B158B2 /* WheresTheLoveUITestsLaunchTests.swift */,
+			);
+			path = WheresTheLoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F5B6CC29B953F000B158B2 /* WheresTheLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F5B6F129B953F200B158B2 /* Build configuration list for PBXNativeTarget "WheresTheLove" */;
+			buildPhases = (
+				D5F5B6C929B953F000B158B2 /* Sources */,
+				D5F5B6CA29B953F000B158B2 /* Frameworks */,
+				D5F5B6CB29B953F000B158B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheresTheLove;
+			productName = WheresTheLove;
+			productReference = D5F5B6CD29B953F000B158B2 /* WheresTheLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F5B6DC29B953F200B158B2 /* WheresTheLoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F5B6F429B953F200B158B2 /* Build configuration list for PBXNativeTarget "WheresTheLoveTests" */;
+			buildPhases = (
+				D5F5B6D929B953F200B158B2 /* Sources */,
+				D5F5B6DA29B953F200B158B2 /* Frameworks */,
+				D5F5B6DB29B953F200B158B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F5B6DF29B953F200B158B2 /* PBXTargetDependency */,
+			);
+			name = WheresTheLoveTests;
+			productName = WheresTheLoveTests;
+			productReference = D5F5B6DD29B953F200B158B2 /* WheresTheLoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5F5B6E629B953F200B158B2 /* WheresTheLoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F5B6F729B953F200B158B2 /* Build configuration list for PBXNativeTarget "WheresTheLoveUITests" */;
+			buildPhases = (
+				D5F5B6E329B953F200B158B2 /* Sources */,
+				D5F5B6E429B953F200B158B2 /* Frameworks */,
+				D5F5B6E529B953F200B158B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F5B6E929B953F200B158B2 /* PBXTargetDependency */,
+			);
+			name = WheresTheLoveUITests;
+			productName = WheresTheLoveUITests;
+			productReference = D5F5B6E729B953F200B158B2 /* WheresTheLoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F5B6C529B953F000B158B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D5F5B6CC29B953F000B158B2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D5F5B6DC29B953F200B158B2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D5F5B6CC29B953F000B158B2;
+					};
+					D5F5B6E629B953F200B158B2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D5F5B6CC29B953F000B158B2;
+					};
+				};
+			};
+			buildConfigurationList = D5F5B6C829B953F000B158B2 /* Build configuration list for PBXProject "WheresTheLove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F5B6C429B953F000B158B2;
+			productRefGroup = D5F5B6CE29B953F000B158B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F5B6CC29B953F000B158B2 /* WheresTheLove */,
+				D5F5B6DC29B953F200B158B2 /* WheresTheLoveTests */,
+				D5F5B6E629B953F200B158B2 /* WheresTheLoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F5B6CB29B953F000B158B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F5B6D829B953F200B158B2 /* Preview Assets.xcassets in Resources */,
+				D5F5B6D529B953F200B158B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F5B6DB29B953F200B158B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F5B6E529B953F200B158B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F5B6C929B953F000B158B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F5B6D329B953F000B158B2 /* ContentView.swift in Sources */,
+				D5F5B6D129B953F000B158B2 /* WheresTheLoveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F5B6D929B953F200B158B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F5B6E229B953F200B158B2 /* WheresTheLoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F5B6E329B953F200B158B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F5B6EE29B953F200B158B2 /* WheresTheLoveUITestsLaunchTests.swift in Sources */,
+				D5F5B6EC29B953F200B158B2 /* WheresTheLoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F5B6DF29B953F200B158B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F5B6CC29B953F000B158B2 /* WheresTheLove */;
+			targetProxy = D5F5B6DE29B953F200B158B2 /* PBXContainerItemProxy */;
+		};
+		D5F5B6E929B953F200B158B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F5B6CC29B953F000B158B2 /* WheresTheLove */;
+			targetProxy = D5F5B6E829B953F200B158B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5F5B6EF29B953F200B158B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5F5B6F029B953F200B158B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F5B6F229B953F200B158B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheresTheLove/Preview Content\"";
+				DEVELOPMENT_TEAM = B3GR99DULL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioSpot.WheresTheLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F5B6F329B953F200B158B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheresTheLove/Preview Content\"";
+				DEVELOPMENT_TEAM = B3GR99DULL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioSpot.WheresTheLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5F5B6F529B953F200B158B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GR99DULL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioSpot.WheresTheLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheresTheLove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WheresTheLove";
+			};
+			name = Debug;
+		};
+		D5F5B6F629B953F200B158B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GR99DULL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioSpot.WheresTheLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheresTheLove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WheresTheLove";
+			};
+			name = Release;
+		};
+		D5F5B6F829B953F200B158B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GR99DULL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioSpot.WheresTheLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheresTheLove;
+			};
+			name = Debug;
+		};
+		D5F5B6F929B953F200B158B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GR99DULL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioSpot.WheresTheLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheresTheLove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F5B6C829B953F000B158B2 /* Build configuration list for PBXProject "WheresTheLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F5B6EF29B953F200B158B2 /* Debug */,
+				D5F5B6F029B953F200B158B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F5B6F129B953F200B158B2 /* Build configuration list for PBXNativeTarget "WheresTheLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F5B6F229B953F200B158B2 /* Debug */,
+				D5F5B6F329B953F200B158B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F5B6F429B953F200B158B2 /* Build configuration list for PBXNativeTarget "WheresTheLoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F5B6F529B953F200B158B2 /* Debug */,
+				D5F5B6F629B953F200B158B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F5B6F729B953F200B158B2 /* Build configuration list for PBXNativeTarget "WheresTheLoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F5B6F829B953F200B158B2 /* Debug */,
+				D5F5B6F929B953F200B158B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F5B6C529B953F000B158B2 /* Project object */;
+}
